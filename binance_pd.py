@@ -11,8 +11,8 @@ import json, os
 api_key = ''
 api_secret = ''
 
-telegram_bot_token = '605223899:AAHPBpx8n1sbL2sV6QexTJUlAcYD0km-bm4'
-telegram_chat_id = '501405523'
+telegram_bot_token = ''
+telegram_chat_id = ''
 
 dump_notify = True
 
