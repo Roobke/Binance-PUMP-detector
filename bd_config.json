@@ -1,0 +1,34 @@
+[
+    {
+        "conditions": {
+            "RSI": {
+                "buy": 90,
+                "enable": true,
+                "sell_profit": 5,
+                "time_period": 14
+            },
+            "buyFor": 0.0011,
+            "buyIfHave": false,
+            "common_take_profit": 5
+        },
+        "currency": "QTUMBTC",
+        "insurance": [
+            {
+                "percent": 1,
+                "value": 0.001
+            }
+        ],
+        "kline": {
+            "interval": "5m",
+            "limit": 60
+        },
+        "onGreenCandles": {
+            "repeat": 3,
+            "up_price": 2
+        },
+        "onRedCandles": {
+            "down_price": 1,
+            "repeat": 3
+        }
+    }
+]
