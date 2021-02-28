@@ -1,1 +1,1 @@
-# Binance-PUMP-detector
+# Binance PUMP/DUMP detector. Sends notifies to telegram.
